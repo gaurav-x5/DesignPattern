@@ -1,4 +1,4 @@
-# DesignPattern
+# CommandPattern
 
 ## Overview
 Command design pattern is a behavioral design pattern (communication pattern among objects) that converts a request or 
