@@ -13,4 +13,9 @@ public class DownCommand implements Command{
     public void execute() {
         this.device.down();
     }
+
+    @Override
+    public void undo() {
+        this.device.up();
+    }
 }

@@ -13,4 +13,9 @@ public class UpCommand implements Command{
     public void execute() {
         this.device.up();
     }
+
+    @Override
+    public void undo() {
+        this.device.down();
+    }
 }

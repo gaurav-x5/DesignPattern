@@ -13,4 +13,9 @@ public class OnCommand implements Command{
     public void execute() {
         this.device.on();
     }
+
+    @Override
+    public void undo() {
+        this.device.off();
+    }
 }

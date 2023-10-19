@@ -19,9 +19,11 @@ public class Main {
                 );
 
                 invoker.clickOn();
+                invoker.undo();
                 invoker.clickOff();
                 invoker.clickUp();
                 invoker.clickDown();
+                invoker.undo();
 
         System.out.println("++++++++++++++SPEAKER+++++++++++++++++");
         Speaker speaker = new Speaker();
@@ -34,7 +36,9 @@ public class Main {
         );
 
         spInvoker.clickDown();
+        spInvoker.undo();
         spInvoker.clickOn();
+        spInvoker.undo();
         spInvoker.clickUp();
         spInvoker.clickOff();
 
