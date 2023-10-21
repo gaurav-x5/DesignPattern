@@ -4,8 +4,10 @@ Proxy pattern is  Structural design pattern which is used whenever we need a pla
 can work in place of the real object. The proxy acts as an intermediatory layer between the client and the real object
 and hence can control the access to the real object, add additional functionality, and even restrict client access. It
 is also known as Surrogate Pattern.
+<img width="851" alt="Screenshot 2023-10-21 at 12 23 21 PM" src="https://github.com/gaurav-x5/DesignPattern/assets/49519381/0d466740-905d-4796-a1f4-8df76fc937b9">
 
-![Screenshot 2023-10-21 at 12.23.21 PM.png](Screenshot 2023-10-21 at 12.23.21 PM.png)
+
+
 
 ## How Does Proxy Design Pattern Work?
 A proxy in the real world is someone who can act as a substitute for another person, whether in corporate work, in-person attendance, etc. The main characteristic of a proxy is its similarity with the original object. This feature makes the proxy indistinguishable and allows it to act as a substitute for the real object.
@@ -21,8 +23,9 @@ Based on the functionality the proxy provides, there can be three different kind
 * **Protection Proxy**: Protection proxies are bodyguard proxies that control access to the original object's methods. It acts as an authentication system that allows only authentic client requests to pass through to the actual object.
 
 
+<img width="828" alt="Screenshot 2023-10-21 at 12 41 09 PM" src="https://github.com/gaurav-x5/DesignPattern/assets/49519381/e4829622-486a-4a0b-83d1-eb6c91851003">
 
-![Screenshot 2023-10-21 at 12.41.09 PM.png](Screenshot 2023-10-21 at 12.41.09 PM.png)
+
 
 Here, we can notice that the Proxy Design Pattern uses the following terms:
 
