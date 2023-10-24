@@ -32,7 +32,7 @@ Factory, Product, Concrete Products, Client are the core components of the facto
 
 **Cons**
 
-* reation of all the concrete product instances are tightly coupled with the factory class that involves code modification 
+* creation of all the concrete product instances are tightly coupled with the factory class that involves code modification 
   when a new concrete product is introduced.
 
 ## Difference between Factory Pattern and Factory Method Pattern
