@@ -1,3 +1,4 @@
+package org.example;
 public class FoodOrder {
 
     private FoodOrderState foodOrderState = new OrderInitiatedState();

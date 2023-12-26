@@ -1,3 +1,4 @@
+package org.example;
 public class WaitingToBePickedState implements FoodOrderState {
 
     @Override

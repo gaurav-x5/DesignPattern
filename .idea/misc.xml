@@ -9,6 +9,7 @@
         <option value="$PROJECT_DIR$/SingleTon/pom.xml" />
         <option value="$PROJECT_DIR$/FactoryDP/pom.xml" />
         <option value="$PROJECT_DIR$/ObserverDP/pom.xml" />
+        <option value="$PROJECT_DIR$/StatePatternDP/pom.xml" />
       </list>
     </option>
   </component>

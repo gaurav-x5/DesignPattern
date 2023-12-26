@@ -1,3 +1,4 @@
+package org.example;
 public class OrderPlacedState implements FoodOrderState {
 
     @Override
