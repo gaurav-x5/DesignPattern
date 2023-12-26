@@ -9,7 +9,7 @@ public class Customer {
     private final String primaryMobileNumber;
     private final String secondaryMobileNumber;
 
-    public Customer(CustomerBuilder customerBuilder) {
+     Customer(CustomerBuilder customerBuilder) {
         this.firstName = customerBuilder.getFirstName();
         this.middleName = customerBuilder.getMiddleName();
         this.lastName = customerBuilder.getLastName();
